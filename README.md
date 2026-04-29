@@ -72,8 +72,8 @@ res = agent.run("<在这里用自然语言描述你的任务>")
 该架构遵循 [ReAct 框架](https://arxiv.org/abs/2210.03629)。代理会用一系列步骤来完成任务。在每一步中，它都可以进行“Reason（推理）”与“Act（行动）”（也就是 ReAct）。代理会执行尽可能多的步骤来完成任务。
 
 因此，核心想法既简单又优雅，而 `Lightweight Agent` 就是按这个思路实现的。下面是架构图：
+![Uploading image.png…]()
 
-![`Lightweight Agent` 架构](./media/architecture.svg)
 
 查看 `src/minimal_agent/agents.py` 以了解对应的源码实现。
 
