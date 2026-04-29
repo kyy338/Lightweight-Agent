@@ -16,7 +16,7 @@
 
 2. 克隆仓库：
    ```bash
-   git clone https://github.com/Antropath/minimal-agent.git
+   git clone https://github.com/kyy338/Lightweight-Agent.git
    cd minimal-agent
    ```
 
